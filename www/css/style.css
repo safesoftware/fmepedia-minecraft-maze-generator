@@ -1,0 +1,151 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+h1{
+    color:#e98300;
+    font-weight: 100;
+    font-size:38px;
+    padding-bottom:50px;
+}
+.lead{
+   font-size: 18px;
+}
+h4{
+    margin-bottom:20px;
+    line-height: 1.4;
+}
+select#Background{
+    width:149px;
+    margin-top:30px ;
+}
+div.border{
+    border-bottom: 1px solid #e98300;
+    margin:40px 0px;
+}
+#stream_face .btn-success{
+    margin-top:30px;
+}
+
+#mapnik-image{
+    margin-top:-20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -79px;
+}
+
+.fileName{
+  width:222px;
+  height:27px;
+  float:left;
+  padding-top: 13px;
+}
+
+.progress {
+  height:20px;
+  margin-bottom:0;
+}
+
+.progressBar {
+  width:60%;
+  height:30px;
+  float:left;
+  padding-top:10px;
+}
+
+.fileBtn{
+  padding-top: 5px;
+  padding-left: 5px;
+  width:120px;
+  height:35px;
+  float:left;
+}
+
+.fileRow{
+  height:80px;
+  border-color:#A9A9A9;
+  border-bottom-style: dotted;
+  border-width: 1px;
+}
+
+#fileTable{
+  border-color:#A9A9A9;
+  border-top-style: dotted;
+  border-top-width: 1px;
+}
+
+.results{
+  font-size: 25px;
+  font-style: bold;
+  height: 452px;
+  text-align: center;
+}
+
+.loadingImage{
+
+}
+
+.errorMsg{
+  font-size:18px;
+  color: red;
+}
+
+.errorNote{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.submissionPage{
+  height: 452px;
+}
+
+#dropzone {
+  font-weight: bold;
+}
+
+#dropzone.in {
+
+  font-size: larger;
+}
+
+#dropzone.hover {
+  background: darkgrey;
+}
+
+#dropzone.fade {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  opacity: 1;
+}
+
+#dropText{
+  text-align: center;
+}
+
+#generateButton{
+  margin-top: 20px;
+  width: 30%;
+}
+
+#changeable{
+  width: 60%;
+}
