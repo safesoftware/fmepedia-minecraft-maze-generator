@@ -5,6 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
+<<<<<<< HEAD
 #    "/Applications/FME 2015/Engine/fme" /Users/lkerssens/Downloads/Maze.fmw
 #          --MAZE_SIZE "20"
 #    
@@ -52,6 +53,56 @@
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #! FME_GEOMETRY_HANDLING="Enhanced"
 #! DOC_TOP_LEFT="-3975 131.492"
+=======
+#    C:\apps\FME2015\fme.exe C:\Users\dbagh\Documents\Experiments\3D\Minecraft\Maze.fmw
+#          --DestDataset_MINECRAFT "C:\Users\dbagh\AppData\Roaming\.minecraft\saves"
+#          --MAZE_SIZE "20"
+#    
+#    
+#! HISTORY="20150206,Dmitri&lt;space&gt;Bagh,Created"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! LOG_MAX_PRECISION="Yes"
+#! WORKSPACE_VERSION="1"
+#! LAST_SAVE_BUILD="FME(R) 2015.0 (20150118 - Build 15246 - WIN64)"
+#! DOC_EXTENTS="4233 1110.51"
+#! BEGIN_PYTHON=""
+#! TITLE="Minecraft maze racing arena generator"
+#! IGNORE_READER_FAILURE="No"
+#! LOG_FILE=""
+#! SHOW_INFO_NODES="true"
+#! FME_REPROJECTION_ENGINE="FME"
+#! CATEGORY="3D"
+#! DESTINATION_ROUTING_FILE=""
+#! DOC_TOP_LEFT="-3975 131.492"
+#! BEGIN_TCL=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! ATTR_TYPE_ENCODING="SDF"
+#! SOURCE="NONE"
+#! FME_BUILD_NUM="15246"
+#! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_GUID="644c0e38-1faf-486b-9b50-4cb84bab7fc7"
+#! DESTINATION="NONE"
+#! SHOW_ANNOTATIONS="true"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! USAGE="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-size:12pt;&quot;&gt;Set the maze size (between 20 and 40) and run the workspace. Place the output into the &lt;/span&gt;&#10;    &lt;span style=&quot; font-size:12pt; color:#222222; background-color:#ffffff;&quot;&gt;%AppData%\.&lt;/span&gt;&#10;    &lt;span style=&quot; font-size:12pt; color:#222222; background-color:#ffffff;&quot;&gt;minecraft\saves, run your Minecraft, and select Maze world.&lt;/span&gt;&#10;&lt;/p&gt;&#10;"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The workspace creates a Minecraft world with two identical mazes side by side, only idfferent by color.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The goal of the game is to go trhough the maze faster than the opponent.&lt;/p&gt;&#10;"
+#! VIEW_POSITION="-4248.04 1311.01"
+#! PASSWORD=""
+#! END_TCL=""
+#! SOURCE_ROUTING_FILE=""
+#! END_PYTHON=""
+#! LAST_SAVE_DATE="2015-02-06T12:40:57"
+#! REQUIREMENTS_KEYWORD="none"
+#! ZOOM_SCALE="100"
+#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_DOCUMENT_PRIORGUID="0ef9e942-eaad-4e05-80cb-07da97b6d082,a0791cdd-1281-41c4-bd47-9a47f5a66268,344ca10e-16bb-42a9-b392-b3d11092d74d,287c4468-6721-4b41-ae3a-3fb874a5f455,cf838314-3428-495c-81a6-96fd4cd5fd0d,984846ae-e705-4aea-83f3-c5d631dcff16"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! MAX_LOG_FEATURES="200"
+>>>>>>> master
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -67,7 +118,11 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
+<<<<<<< HEAD
 #! EXPOSABLE_ATTRS="minecraft_world_name string fme_type string fme_secondary_axis double fme_color string fme_start_angle double minecraft_type string fme_feature_type string minecraft_fill_under string minecraft_fill_block short minecraft_center_point_cloud string minecraft_generator_seed long fme_rotation double minecraft_generator_name string fme_sweep_angle double fme_fill_color string fme_text_size double fme_dataset string minecraft_populate_terrain string fme_basename string minecraft_generator_options string fme_primary_axis double fme_text_string string fme_geometry fme_char(50)"
+=======
+#! EXPOSABLE_ATTRS="fme_text_size double minecraft_populate_terrain string minecraft_type string minecraft_generator_options string fme_dataset string minecraft_center_point_cloud string fme_start_angle double minecraft_world_name string fme_basename string fme_primary_axis double fme_geometry fme_char(50) minecraft_generator_seed long minecraft_fill_under string minecraft_fill_block short minecraft_generator_name string fme_fill_color string fme_type string fme_sweep_angle double fme_text_string string fme_secondary_axis double fme_rotation double fme_color string fme_feature_type string"
+>>>>>>> master
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -76,6 +131,7 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILEDIR"
 #! GENERATE_FME_BUILD_NUM="15233"
+<<<<<<< HEAD
 #! FANOUT_SUFFIX=""
 #! FANOUT_DIRECTORY=""
 #! FANOUT_PREFIX=""
@@ -94,19 +150,47 @@
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="World"
+=======
+#! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT="No"
+#! FANOUT_DIRECTORY=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT_SUFFIX=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a folder for the Minecraft World"
+>>>>>>> master
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="AUTO_FANOUT_ATTRIBUTE"
 #! VALUE="fme_basename"
 #! />
 #! <METAFILE_PARAMETER
+<<<<<<< HEAD
 #! NAME="WRITER_DATASET_HINT"
 #! VALUE="Specify a folder for the Minecraft World"
+=======
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="World1"
+>>>>>>> master
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="ADVANCED_PARMS"
 #! VALUE="MINECRAFT_OUT_FILL_BLOCK"
 #! />
+<<<<<<< HEAD
+=======
+#! <METAFILE_PARAMETER
+#! NAME="READER_AUTO_EXPOSE"
+#! VALUE="fme_basename string"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="World"
+#! />
+>>>>>>> master
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
@@ -314,7 +398,11 @@
 #! FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
 #! POSITION="258 621"
 #! BOUNDING_RECT="258 621 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! COLLAPSED="false"
 #! KEYWORD="MINECRAFT_1"
 #! PARMS_EDITED="true"
@@ -331,15 +419,26 @@
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
+<<<<<<< HEAD
+=======
+#! GUI_LINE="GUI DIRNAME DestDataset_MINECRAFT Destination Minecraft Folder:"
+#! DEFAULT_VALUE="C:\Users\dbagh\AppData\Roaming\.minecraft\saves"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+>>>>>>> master
 #! GUI_LINE="GUI OPTIONAL RANGE_SLIDER_OR_ATTR MAZE_SIZE 20%40%0 The Size of the maze:"
 #! DEFAULT_VALUE="20"
 #! IS_STAND_ALONE="true"
 #! />
+<<<<<<< HEAD
 #! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI IGNORE DIRNAME DestDataset_MINECRAFT Destination Minecraft Folder:"
 #! DEFAULT_VALUE="C:\Users\dbagh\AppData\Roaming\.minecraft\saves"
 #! IS_STAND_ALONE="false"
 #! />
+=======
+>>>>>>> master
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
@@ -349,10 +448,17 @@
 #! TOP_LEFT="-3657 1242"
 #! BOTTOM_RIGHT="-3658 1243"
 #! BOUNDING_RECT="-3657 1242 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="92"
@@ -364,10 +470,17 @@
 #! TOP_LEFT="-2975 1063.5"
 #! BOTTOM_RIGHT="-2976 1064.5"
 #! BOUNDING_RECT="-2975 1063.5 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="43"
@@ -379,10 +492,17 @@
 #! TOP_LEFT="-2408 1104"
 #! BOTTOM_RIGHT="-2409 1105"
 #! BOUNDING_RECT="-2408 1104 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="16"
@@ -394,10 +514,17 @@
 #! TOP_LEFT="-2236 1242"
 #! BOTTOM_RIGHT="-2237 1243"
 #! BOUNDING_RECT="-2236 1242 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="32"
@@ -409,10 +536,17 @@
 #! TOP_LEFT="-798 756.001"
 #! BOTTOM_RIGHT="-799 757.001"
 #! BOUNDING_RECT="-798 756.001 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="53"
@@ -424,10 +558,17 @@
 #! TOP_LEFT="-258 759"
 #! BOTTOM_RIGHT="-259 760"
 #! BOUNDING_RECT="-258 759 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="46"
@@ -439,23 +580,39 @@
 #! <BOOKMARK
 #! IDENTIFIER="50"
 #! NAME="Create some ground around the mazes"
+<<<<<<< HEAD
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+=======
+#! DESCRIPTION=""
+>>>>>>> master
 #! TOP_LEFT="-2494 483"
 #! BOTTOM_RIGHT="-852 131.492"
 #! BOUNDING_RECT="-2494 483 1642 351.508"
 #! STICKY="true"
 #! COLOUR="0,0.666667,0"
+<<<<<<< HEAD
 #! CONTENTS="58 35 36 29 87 "
+=======
+#! CONTENTS="87 29 35 36 58 "
+>>>>>>> master
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="37"
 #! NAME="Place mazes side by side"
+<<<<<<< HEAD
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+=======
+#! DESCRIPTION=""
+>>>>>>> master
 #! TOP_LEFT="-1450 1056"
 #! BOTTOM_RIGHT="-896 544"
 #! BOUNDING_RECT="-1450 1056 554 512"
 #! STICKY="true"
+<<<<<<< HEAD
 #! COLOUR="0.403922,0.709804,0.294118"
+=======
+#! COLOUR="0.407843,0.713725,0.298039"
+>>>>>>> master
 #! CONTENTS="54 88 "
 #! />
 #! </BOOKMARKS>
@@ -466,7 +623,11 @@
 #! VERSION="2"
 #! POSITION="-2408 897"
 #! BOUNDING_RECT="-2408 897 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -476,6 +637,7 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
 #! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -492,6 +654,24 @@
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_copynum"/>
 #! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+=======
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="RASTER_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_copynum"/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPACING" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudCombiner"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="29"
@@ -499,7 +679,11 @@
 #! VERSION="2"
 #! POSITION="-1892 345"
 #! BOUNDING_RECT="-1892 345 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15233"
@@ -508,6 +692,7 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
 #! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -524,6 +709,24 @@
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+=======
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="RASTER_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPACING" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudCombiner_2"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="32"
@@ -531,7 +734,11 @@
 #! VERSION="0"
 #! POSITION="-1892 897"
 #! BOUNDING_RECT="-1892 897 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -541,8 +748,13 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD_GROUP" PARM_VALUE=""/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD" PARM_VALUE="z,UInt8,1,blockID,UInt16,95,blockData,UInt8,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;14&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;_copynum&lt;closeparen&gt; = 0&apos;11&apos;FME_NUM_CONDITIONS2___&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudComponentAdder"/>
 #! </TRANSFORMER>
@@ -552,7 +764,11 @@
 #! VERSION="0"
 #! POSITION="-1376 345"
 #! BOUNDING_RECT="-1376 345 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15233"
@@ -561,8 +777,13 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD_GROUP" PARM_VALUE=""/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_ADD" PARM_VALUE="blockID,UInt16,2,z,UInt8,0"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudComponentAdder_2"/>
 #! </TRANSFORMER>
@@ -572,7 +793,11 @@
 #! VERSION="2"
 #! POSITION="-774 621"
 #! BOUNDING_RECT="-774 621 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15233"
@@ -582,6 +807,7 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
 #! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -598,6 +824,24 @@
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+=======
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="RASTER_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="EXTRACT_RASTER_NODATA_NAME" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPACING" PARM_VALUE="1.0"/>
+#! <XFORM_PARM PARM_NAME="MEASURES_TO_PRESERVE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudCombiner_4"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="54"
@@ -605,7 +849,11 @@
 #! VERSION="0"
 #! POSITION="-1376 966"
 #! BOUNDING_RECT="-1376 966 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -617,11 +865,19 @@
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="XOFF" PARM_VALUE="-$(MAZE_SIZE)/2"/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="-$(MAZE_SIZE)+ @Value(_copynum)*($(MAZE_SIZE)+3)"/>
 #! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="-$(MAZE_SIZE)+ @Value(_copynum)*($(MAZE_SIZE)+3)"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Offsetter_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -630,7 +886,11 @@
 #! VERSION="2"
 #! POSITION="-258 621"
 #! BOUNDING_RECT="-258 621 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15233"
@@ -640,9 +900,15 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="EXPRESSION_TABLE" PARM_VALUE="z Auto &lt;at&gt;Component&lt;openparen&gt;z&lt;closeparen&gt;+80"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="EXPRESSION_TABLE" PARM_VALUE="z Auto &lt;at&gt;Component&lt;openparen&gt;z&lt;closeparen&gt;+80"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointCloudExpressionEvaluator_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -651,7 +917,11 @@
 #! VERSION="5"
 #! POSITION="-2408 345"
 #! BOUNDING_RECT="-2408 345 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -659,6 +929,7 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Min/Max Box"/>
 #! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="-63 -63 64 64"/>
@@ -668,6 +939,17 @@
 #! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="-63 -63 64 64"/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Min/Max Box"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -676,7 +958,11 @@
 #! VERSION="0"
 #! POSITION="-1376 690"
 #! BOUNDING_RECT="-1376 690 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -688,11 +974,19 @@
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="0"/>
 #! <XFORM_PARM PARM_NAME="XOFF" PARM_VALUE="-$(MAZE_SIZE)/2"/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="-$(MAZE_SIZE) + @Value(_copynum)*($(MAZE_SIZE)+3)"/>
 #! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="-$(MAZE_SIZE) + @Value(_copynum)*($(MAZE_SIZE)+3)"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Offsetter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -701,21 +995,37 @@
 #! VERSION="0"
 #! POSITION="-3440 897"
 #! BOUNDING_RECT="-3440 897 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15244"
+=======
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15246"
+>>>>>>> master
 #! >
 #! <OUTPUT_FEAT NAME="Maze"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="_CREATION_INSTANCE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_creation_instance&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MAZESIZE" PARM_VALUE="$(MAZE_SIZE)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="MazeCreator"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MazeCreator"/>
+=======
+#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="_CREATION_INSTANCE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_creation_instance&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="MazeCreator"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MazeCreator"/>
+#! <XFORM_PARM PARM_NAME="MAZESIZE" PARM_VALUE="$(MAZE_SIZE)"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="30"
@@ -723,7 +1033,11 @@
 #! VERSION="5"
 #! POSITION="-3975 897"
 #! BOUNDING_RECT="-3975 897 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -731,6 +1045,7 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
@@ -740,6 +1055,17 @@
 #! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -748,7 +1074,11 @@
 #! VERSION="0"
 #! POSITION="-2924 897"
 #! BOUNDING_RECT="-2924 897 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -760,8 +1090,13 @@
 #! <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE="_copynum"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="2"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="2"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Cloner"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -891,6 +1226,7 @@
 #! <SUBDOCUMENTS>
 #! <SUBDOCUMENT
 #! NAME="MazeCreator"
+<<<<<<< HEAD
 #! FME_PROCESS_COUNT="NO_PARALLELISM"
 #! VIEW_POSITION="-1431.01 501.005"
 #! DESCRIPTION=""
@@ -912,6 +1248,29 @@
 #! IS_VISIBLE="true"
 #! FME_PROCESS_GROUPS_ORDERED="No"
 #! LEGAL_TERMS_CONDITIONS=""
+=======
+#! FME_DOCUMENT_GUID=""
+#! SUPPRESS_UPGRADE="false"
+#! ZOOM_SCALE="100"
+#! LEGAL_TERMS_CONDITIONS=""
+#! XFORM_DEPRECATED="No"
+#! FME_PROCESS_GROUPS_ORDERED="No"
+#! HISTORY=""
+#! DOC_EXTENTS="3809 1134"
+#! FME_PROCESS_COUNT="NO_PARALLELISM"
+#! REQUIREMENTS=""
+#! USAGE=""
+#! TITLE="MazeCreator"
+#! DOC_DYNAMIC_INPUT_ATTRS="0"
+#! VIEW_POSITION="-1431.01 501.005"
+#! REQUIREMENTS_KEYWORD=""
+#! FME_DOCUMENT_PRIORGUID=""
+#! CATEGORY=""
+#! FME_PROCESS_GROUP_BY=""
+#! DESCRIPTION=""
+#! DOC_TOP_LEFT="-1391 -759"
+#! IS_VISIBLE="true"
+>>>>>>> master
 #! >
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -933,10 +1292,17 @@
 #! TOP_LEFT="-880 375.001"
 #! BOTTOM_RIGHT="-881 376.001"
 #! BOUNDING_RECT="-880 375.001 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="30"
@@ -948,10 +1314,17 @@
 #! TOP_LEFT="1795 75.0008"
 #! BOTTOM_RIGHT="1794 76.0008"
 #! BOUNDING_RECT="1795 75.0008 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="6"
@@ -963,10 +1336,17 @@
 #! TOP_LEFT="-430 -690"
 #! BOTTOM_RIGHT="-431 -689"
 #! BOUNDING_RECT="-430 -690 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="8"
@@ -978,10 +1358,17 @@
 #! TOP_LEFT="1795 -344.999"
 #! BOTTOM_RIGHT="1794 -343.999"
 #! BOUNDING_RECT="1795 -344.999 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="12"
@@ -993,10 +1380,17 @@
 #! TOP_LEFT="1032 -759"
 #! BOTTOM_RIGHT="1031 -758"
 #! BOUNDING_RECT="1032 -759 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
 #! COLOUR="1,1,0.784314,0.192157"
+=======
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+>>>>>>> master
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
 #! ANCHORED_NODE="13"
@@ -1008,24 +1402,42 @@
 #! <BOOKMARK
 #! IDENTIFIER="35"
 #! NAME="Split lines with line breaks"
+<<<<<<< HEAD
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+=======
+#! DESCRIPTION=""
+>>>>>>> master
 #! TOP_LEFT="-395.005 270"
 #! BOTTOM_RIGHT="1251.01 -206"
 #! BOUNDING_RECT="-395.005 270 1646.02 476"
 #! STICKY="true"
+<<<<<<< HEAD
 #! COLOUR="0.537255,0.458824,0.403922"
 #! CONTENTS="15 3 2 16 4 "
+=======
+#! COLOUR="0.541176,0.462745,0.407843"
+#! CONTENTS="2 4 15 3 16 "
+>>>>>>> master
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="38"
 #! NAME="Make black of 1s and white of zeros"
+<<<<<<< HEAD
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+=======
+#! DESCRIPTION=""
+>>>>>>> master
 #! TOP_LEFT="139.995 -270"
 #! BOTTOM_RIGHT="1228.99 -686"
 #! BOUNDING_RECT="139.995 -270 1089 416"
 #! STICKY="true"
+<<<<<<< HEAD
 #! COLOUR="0.929412,0.341176,0.494118"
 #! CONTENTS="24 11 10 9 23 "
+=======
+#! COLOUR="0.929412,0.345098,0.494118"
+#! CONTENTS="10 24 23 11 9 "
+>>>>>>> master
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1035,7 +1447,11 @@
 #! VERSION="2"
 #! POSITION="-321.005 60"
 #! BOUNDING_RECT="-321.005 60 0 0"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="14388"
@@ -1051,12 +1467,21 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="STRING_TO_SEARCH" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;line&lt;closeparen&gt;"/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="&lt;openparen&gt;&lt;openbracket&gt;0-9&lt;closebracket&gt;+&lt;closeparen&gt;&lt;backslash&gt;D&lt;openparen&gt;&lt;openbracket&gt;0-9&lt;closebracket&gt;+&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="MATCHED_RESULT_ATTR" PARM_VALUE="_matched_characters"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="MATCHED_PARTS_ATTR" PARM_VALUE="_matched_parts"/>
+=======
+#! <XFORM_PARM PARM_NAME="MATCHED_RESULT_ATTR" PARM_VALUE="_matched_characters"/>
+#! <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="&lt;openparen&gt;&lt;openbracket&gt;0-9&lt;closebracket&gt;+&lt;closeparen&gt;&lt;backslash&gt;D&lt;openparen&gt;&lt;openbracket&gt;0-9&lt;closebracket&gt;+&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="MATCHED_PARTS_ATTR" PARM_VALUE="_matched_parts"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringSearcher"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1065,7 +1490,11 @@
 #! VERSION="3"
 #! POSITION="213.995 180"
 #! BOUNDING_RECT="213.995 180 0 0"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -1082,12 +1511,21 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_characters" IS_USER_CREATED="false" FEAT_INDEX="1" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="List Elements and Original Attributes"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_matched_parts{}"/>
 #! <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+=======
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_matched_parts{}"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="List Elements and Original Attributes"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="4"
@@ -1095,7 +1533,11 @@
 #! VERSION="2"
 #! POSITION="748.995 180"
 #! BOUNDING_RECT="748.995 180 0 0"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="14388"
@@ -1115,7 +1557,11 @@
 #! VERSION="2"
 #! POSITION="1284 -60"
 #! BOUNDING_RECT="1284 -60 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -1127,6 +1573,7 @@
 #! <XFORM_ATTR ATTR_NAME="_matched_characters" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_creation_instance&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_y"/>
 #! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
@@ -1134,6 +1581,15 @@
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Counter"/>
+=======
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_y"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Counter"/>
+#! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_creation_instance&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="0"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="6"
@@ -1141,7 +1597,11 @@
 #! VERSION="3"
 #! POSITION="1819 -60"
 #! BOUNDING_RECT="1819 -60 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15220"
@@ -1154,6 +1614,7 @@
 #! <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="line"/>
 #! <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -1162,6 +1623,16 @@
 #! <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
 #! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
+=======
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="line"/>
+#! <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="None"/>
+#! <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="7"
@@ -1169,7 +1640,11 @@
 #! VERSION="4"
 #! POSITION="-856 -360"
 #! BOUNDING_RECT="-856 -360 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -1190,6 +1665,7 @@
 #! <XFORM_ATTR ATTR_NAME="_matched_characters" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_list{}"/>
 #! <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_x"/>
@@ -1198,6 +1674,16 @@
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_list{}"/>
+#! <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_x"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Incoming List"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1206,7 +1692,11 @@
 #! VERSION="1"
 #! POSITION="-321.005 -360"
 #! BOUNDING_RECT="-321.005 -360 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15220"
@@ -1229,6 +1719,7 @@
 #! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_list" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(_x)"/>
 #! <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Replace with Point"/>
@@ -1236,6 +1727,15 @@
 #! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
+=======
+#! <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(_x)"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(_y)"/>
+#! <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Replace with Point"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
+#! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="9"
@@ -1243,7 +1743,11 @@
 #! VERSION="2"
 #! POSITION="213.995 -360"
 #! BOUNDING_RECT="213.995 -360 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -1266,12 +1770,21 @@
 #! <XFORM_ATTR ATTR_NAME="_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_list" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="COMPOSITE"/>
 #! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_list&lt;closeparen&gt; = 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_x&lt;closeparen&gt; = 0&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_y&lt;closeparen&gt; = 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_x&lt;closeparen&gt; = &lt;at&gt;Evaluate&lt;openparen&gt;$(MAZESIZE)%2==0?$(MAZESIZE):$(MAZESIZE)-1&lt;closeparen&gt;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_y&lt;closeparen&gt; = &lt;at&gt;Evaluate&lt;openparen&gt;$(MAZESIZE)%2==0?&lt;openparen&gt;$(MAZESIZE)-1&lt;closeparen&gt;:&lt;openparen&gt;$(MAZESIZE)-2&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&quot;1 AND NOT (2 AND 3) AND NOT (4 AND 5)&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+=======
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_list&lt;closeparen&gt; = 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_x&lt;closeparen&gt; = 0&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_y&lt;closeparen&gt; = 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_x&lt;closeparen&gt; = &lt;at&gt;Evaluate&lt;openparen&gt;$(MAZESIZE)%2==0?$(MAZESIZE):$(MAZESIZE)-1&lt;closeparen&gt;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_y&lt;closeparen&gt; = &lt;at&gt;Evaluate&lt;openparen&gt;$(MAZESIZE)%2==0?&lt;openparen&gt;$(MAZESIZE)-1&lt;closeparen&gt;:&lt;openparen&gt;$(MAZESIZE)-2&lt;closeparen&gt;&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&quot;1 AND NOT (2 AND 3) AND NOT (4 AND 5)&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="COMPOSITE"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1280,7 +1793,11 @@
 #! VERSION="1"
 #! POSITION="748.995 -360"
 #! BOUNDING_RECT="748.995 -360 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="false"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15220"
@@ -1296,6 +1813,7 @@
 #! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_fill_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Fixed"/>
 #! <XFORM_PARM PARM_NAME="COLOR_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1309,6 +1827,21 @@
 #! <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureColorSetter"/>
+=======
+#! <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEIGHBOR_IDS_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RANDOM_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AREA_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RANDOM_COLOR_CAP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE="0,0,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureColorSetter"/>
+#! <XFORM_PARM PARM_NAME="COLOR_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Fixed"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="11"
@@ -1316,7 +1849,11 @@
 #! VERSION="1"
 #! POSITION="748.995 -540"
 #! BOUNDING_RECT="748.995 -540 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="false"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15220"
@@ -1332,6 +1869,7 @@
 #! <XFORM_ATTR ATTR_NAME="_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_fill_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Fixed"/>
 #! <XFORM_PARM PARM_NAME="COLOR_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1345,6 +1883,21 @@
 #! <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureColorSetter_2"/>
+=======
+#! <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEIGHBOR_IDS_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RANDOM_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AREA_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RANDOM_COLOR_CAP" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE="1,1,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureColorSetter_2"/>
+#! <XFORM_PARM PARM_NAME="COLOR_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Fixed"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="12"
@@ -1352,7 +1905,11 @@
 #! VERSION="5"
 #! POSITION="1819 -480"
 #! BOUNDING_RECT="1819 -480 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15235"
@@ -1361,6 +1918,7 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="ROWCOL_OR_CELLSIZE" PARM_VALUE="CellSize"/>
 #! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MAX_X" PARM_VALUE="$(MAZESIZE)+1"/>
 #! <XFORM_PARM PARM_NAME="BACKGROUND_COLOR" PARM_VALUE="1,1,1"/>
@@ -1390,6 +1948,37 @@
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_creation_instance"/>
+=======
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_INTERPRETATION_DISPLAY" PARM_VALUE="Color"/>
+#! <XFORM_PARM PARM_NAME="INTERPRETATION_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COLUMNS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ALPHA" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MAX_X" PARM_VALUE="$(MAZESIZE)+1"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MAX_Y" PARM_VALUE="$(MAZESIZE)+1"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="X_CELL_SIZE" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ImageRasterizer"/>
+#! <XFORM_PARM PARM_NAME="INTERPRETATION_TYPE" PARM_VALUE="RGB24"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="Y_CELL_SIZE" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="ANTI_ALIASING" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="SPECIFY_GROUND_EXTENTS" PARM_VALUE="Specify ground extents"/>
+#! <XFORM_PARM PARM_NAME="FILL_WITH_NODATA" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_COLOR" PARM_VALUE="1,1,1"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MIN_X" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_ALPHA" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MIN_Y" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ROWCOL_OR_CELLSIZE" PARM_VALUE="CellSize"/>
+#! <XFORM_PARM PARM_NAME="RASTER_PROPERTIES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ANTI_ALIASING_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TOLERANCE" PARM_VALUE="0.5"/>
+>>>>>>> master
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="13"
@@ -1397,7 +1986,11 @@
 #! VERSION="0"
 #! POSITION="1284 -480"
 #! BOUNDING_RECT="1284 -480 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15220"
@@ -1415,11 +2008,19 @@
 #! <XFORM_ATTR ATTR_NAME="fme_fill_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="0"/>
 #! <XFORM_PARM PARM_NAME="XOFF" PARM_VALUE="0.5"/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="0.5"/>
 #! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+=======
+#! <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="0.5"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Offsetter_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1428,7 +2029,11 @@
 #! VERSION="4"
 #! POSITION="-856 240"
 #! BOUNDING_RECT="-856 240 -1 -1"
+<<<<<<< HEAD
 #! ORDER="5e+14"
+=======
+#! ORDER="5e+014"
+>>>>>>> master
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15246"
@@ -1438,6 +2043,7 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="line" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
+<<<<<<< HEAD
 #! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="line"/>
 #! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -1445,6 +2051,15 @@
 #! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="from&lt;space&gt;random&lt;space&gt;import&lt;space&gt;shuffle&lt;comma&gt;&lt;space&gt;randrange&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;w&lt;space&gt;=&lt;space&gt;int&lt;openparen&gt;float&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;MazeCreator_MAZESIZE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;solidus&gt;2&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#h&lt;space&gt;=&lt;space&gt;int&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;MAZESIZE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;vis&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;1&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;1&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;&lt;openparen&gt;w&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ver&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;quote&gt;10&lt;quote&gt;&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;1&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;closebracket&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;hor&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;quote&gt;11&lt;quote&gt;&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;1&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;walk&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;vis&lt;openbracket&gt;y&lt;closebracket&gt;&lt;openbracket&gt;x&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;1&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;d&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openparen&gt;x&lt;space&gt;-&lt;space&gt;1&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;space&gt;+&lt;space&gt;1&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;space&gt;-&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;shuffle&lt;openparen&gt;d&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;&lt;openparen&gt;xx&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;space&gt;in&lt;space&gt;d:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;vis&lt;openbracket&gt;yy&lt;closebracket&gt;&lt;openbracket&gt;xx&lt;closebracket&gt;:&lt;space&gt;continue&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;xx&lt;space&gt;==&lt;space&gt;x:&lt;space&gt;hor&lt;openbracket&gt;max&lt;openparen&gt;y&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;closebracket&gt;&lt;openbracket&gt;x&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;&lt;quote&gt;10&lt;quote&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;yy&lt;space&gt;==&lt;space&gt;y:&lt;space&gt;ver&lt;openbracket&gt;y&lt;closebracket&gt;&lt;openbracket&gt;max&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;xx&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;&lt;quote&gt;00&lt;quote&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;walk&lt;openparen&gt;xx&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;walk&lt;openparen&gt;randrange&lt;openparen&gt;w&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;randrange&lt;openparen&gt;w&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;&lt;openparen&gt;a&lt;comma&gt;&lt;space&gt;b&lt;closeparen&gt;&lt;space&gt;in&lt;space&gt;zip&lt;openparen&gt;hor&lt;comma&gt;&lt;space&gt;ver&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#print&lt;openparen&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;a&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;&lt;backslash&gt;n&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;b&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature_id&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;_creation_instance&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature&lt;space&gt;=&lt;space&gt;fmeobjects.FMEFeature&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;line&lt;quote&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;a&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;&lt;backslash&gt;n&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;b&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_creation_instance&lt;quote&gt;&lt;comma&gt;&lt;space&gt;feature_id&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;"/>
+=======
+#! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="from&lt;space&gt;random&lt;space&gt;import&lt;space&gt;shuffle&lt;comma&gt;&lt;space&gt;randrange&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;w&lt;space&gt;=&lt;space&gt;int&lt;openparen&gt;float&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;MazeCreator_MAZESIZE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;solidus&gt;2&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#h&lt;space&gt;=&lt;space&gt;int&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;MAZESIZE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;vis&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;1&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;1&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;&lt;openparen&gt;w&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ver&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;quote&gt;10&lt;quote&gt;&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;1&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;closebracket&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;hor&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openbracket&gt;&lt;quote&gt;11&lt;quote&gt;&lt;closebracket&gt;&lt;space&gt;*&lt;space&gt;w&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;1&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;for&lt;space&gt;_&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;w&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;walk&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;vis&lt;openbracket&gt;y&lt;closebracket&gt;&lt;openbracket&gt;x&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;1&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;d&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;openparen&gt;x&lt;space&gt;-&lt;space&gt;1&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;space&gt;+&lt;space&gt;1&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;space&gt;+&lt;space&gt;1&lt;comma&gt;&lt;space&gt;y&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;y&lt;space&gt;-&lt;space&gt;1&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;shuffle&lt;openparen&gt;d&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;&lt;openparen&gt;xx&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;space&gt;in&lt;space&gt;d:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;vis&lt;openbracket&gt;yy&lt;closebracket&gt;&lt;openbracket&gt;xx&lt;closebracket&gt;:&lt;space&gt;continue&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;xx&lt;space&gt;==&lt;space&gt;x:&lt;space&gt;hor&lt;openbracket&gt;max&lt;openparen&gt;y&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;closebracket&gt;&lt;openbracket&gt;x&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;&lt;quote&gt;10&lt;quote&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;yy&lt;space&gt;==&lt;space&gt;y:&lt;space&gt;ver&lt;openbracket&gt;y&lt;closebracket&gt;&lt;openbracket&gt;max&lt;openparen&gt;x&lt;comma&gt;&lt;space&gt;xx&lt;closeparen&gt;&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;&lt;quote&gt;00&lt;quote&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;walk&lt;openparen&gt;xx&lt;comma&gt;&lt;space&gt;yy&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;walk&lt;openparen&gt;randrange&lt;openparen&gt;w&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;randrange&lt;openparen&gt;w&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;&lt;openparen&gt;a&lt;comma&gt;&lt;space&gt;b&lt;closeparen&gt;&lt;space&gt;in&lt;space&gt;zip&lt;openparen&gt;hor&lt;comma&gt;&lt;space&gt;ver&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#print&lt;openparen&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;a&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;&lt;backslash&gt;n&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;b&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature_id&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;_creation_instance&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature&lt;space&gt;=&lt;space&gt;fmeobjects.FMEFeature&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;line&lt;quote&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;a&lt;space&gt;+&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;&lt;backslash&gt;n&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;b&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_creation_instance&lt;quote&gt;&lt;comma&gt;&lt;space&gt;feature_id&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="line"/>
+>>>>>>> master
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -1630,10 +2245,17 @@
 #! </WORKSPACE>
 #! 
 GUI IGNORE DestDataset_MINECRAFT_1,MINECRAFT_OUT_POPULATE_TERRAIN_MINECRAFT_1,MINECRAFT_OUT_FILL_UNDER_MINECRAFT_1,MINECRAFT_OUT_CENTER_POINT_CLOUD_MINECRAFT_1,MINECRAFT_OUT_GENERATOR_NAME_MINECRAFT_1,MINECRAFT_OUT_GENERATOR_OPTIONS_MINECRAFT_1,MINECRAFT_OUT_BIOME_MINECRAFT_1,MINECRAFT_OUT_ADVANCED_MINECRAFT_1,MINECRAFT_OUT_FILL_BLOCK_MINECRAFT_1
+<<<<<<< HEAD
 DEFAULT_MACRO MAZE_SIZE 20
 GUI OPTIONAL RANGE_SLIDER MAZE_SIZE 20%40%0 The Size of the maze:
 DEFAULT_MACRO DestDataset_MINECRAFT C:\Users\dbagh\AppData\Roaming\.minecraft\saves
 GUI IGNORE DIRNAME DestDataset_MINECRAFT Destination Minecraft Folder:
+=======
+DEFAULT_MACRO DestDataset_MINECRAFT C:\Users\dbagh\AppData\Roaming\.minecraft\saves
+GUI DIRNAME DestDataset_MINECRAFT Destination Minecraft Folder:
+DEFAULT_MACRO MAZE_SIZE 20
+GUI OPTIONAL RANGE_SLIDER MAZE_SIZE 20%40%0 The Size of the maze:
+>>>>>>> master
 INCLUDE [ if {{$(DestDataset_MINECRAFT)} == {}} { puts_real {Parameter 'DestDataset_MINECRAFT' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
@@ -1703,6 +2325,10 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID Minecraft<space>maze<space>racing<space>arena<space>generator
+<<<<<<< HEAD
+=======
+LOG_TIMINGS YES
+>>>>>>> master
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_MINECRAFT_1 MINECRAFT_1
 # -------------------------------------------------------------------------
@@ -1740,7 +2366,11 @@ MACRO $(MazeCreator_WORKSPACE_NAME)_MAZESIZE $(MAZE_SIZE)
 MACRO $(MazeCreator_WORKSPACE_NAME)__CREATION_INSTANCE <at>Value<openparen>_creation_instance<closeparen>
 DEFAULT_MACRO MazeCreator_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(MazeCreator_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(MazeCreator_WORKSPACE_NAME)}]
+<<<<<<< HEAD
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(MazeCreator_WORKSPACE_NAME)_Input1423516275 Input Splitter"   INPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,_creation_instance,$($(MazeCreator_WORKSPACE_NAME)__CREATION_INSTANCE), FEATURE_TYPE)"
+=======
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(MazeCreator_WORKSPACE_NAME)_Input1423255257 Input Splitter"   INPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,_creation_instance,$($(MazeCreator_WORKSPACE_NAME)__CREATION_INSTANCE), FEATURE_TYPE)"
+>>>>>>> master
 # -------------------------------------------------------------------------
 
 
@@ -1752,8 +2382,13 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_Python
 
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
+<<<<<<< HEAD
 Tcl2 proc $(MazeCreator_WORKSPACE_NAME)_StringSearcher_2ece7510_b0a0_11e4_ba78_60030894943e0_doGrep { stringToSearch regExp matchedChars matchedParts } {   set results [regexp -inline $(casemac) [FME_DecodeText $regExp]                  [FME_DecodeText $stringToSearch]];   set attrName $matchedChars;   set index 0;   foreach part $results {       FME_SetAttribute $attrName $part;       set attrName "$matchedParts{$index}";       incr index;   };   if {$index > 0} {       FME_UnsetAttributes $attrName;   };   return $index; }
 FACTORY_DEF * TestFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_StringSearcher    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_PythonCaller_OUTPUT"    TEST @Tcl2("$(MazeCreator_WORKSPACE_NAME)_StringSearcher_2ece7510_b0a0_11e4_ba78_60030894943e0_doGrep {@EvaluateExpression(STRING_ENCODED,<at>Value<openparen>line<closeparen>,$(MazeCreator_WORKSPACE_NAME)_StringSearcher)} {<openparen><openbracket>0-9<closebracket>+<closeparen><backslash>D<openparen><openbracket>0-9<closebracket>+<closeparen>} {_matched_characters} {_matched_parts}") > 0    OUTPUT PASSED FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_MATCHED"    OUTPUT FAILED FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_NOT_MATCHED"
+=======
+Tcl2 proc $(MazeCreator_WORKSPACE_NAME)_StringSearcher_7d8536bf_3fd2_4190_90b6_8bbd1495d91d53_doGrep { stringToSearch regExp matchedChars matchedParts } {   set results [regexp -inline $(casemac) [FME_DecodeText $regExp]                  [FME_DecodeText $stringToSearch]];   set attrName $matchedChars;   set index 0;   foreach part $results {       FME_SetAttribute $attrName $part;       set attrName "$matchedParts{$index}";       incr index;   };   if {$index > 0} {       FME_UnsetAttributes $attrName;   };   return $index; }
+FACTORY_DEF * TestFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_StringSearcher    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_PythonCaller_OUTPUT"    TEST @Tcl2("$(MazeCreator_WORKSPACE_NAME)_StringSearcher_7d8536bf_3fd2_4190_90b6_8bbd1495d91d53_doGrep {@EvaluateExpression(STRING_ENCODED,<at>Value<openparen>line<closeparen>,$(MazeCreator_WORKSPACE_NAME)_StringSearcher)} {<openparen><openbracket>0-9<closebracket>+<closeparen><backslash>D<openparen><openbracket>0-9<closebracket>+<closeparen>} {_matched_characters} {_matched_parts}") > 0    OUTPUT PASSED FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_MATCHED"    OUTPUT FAILED FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_NOT_MATCHED"
+>>>>>>> master
 
 # -------------------------------------------------------------------------
 
@@ -1765,6 +2400,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_Attribute
 
 # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 Tcl2 proc $(MazeCreator_WORKSPACE_NAME)_Counter_2ece8618_b0a0_11e4_ba78_60030894943e0_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {$(MazeCreator_WORKSPACE_NAME)_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_Counter    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_AttributeRenamer_OUTPUT"    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_NOT_MATCHED"    OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Counter_OUTPUT"         "_y" @Count(fme_encoded,@Tcl2("$(MazeCreator_WORKSPACE_NAME)_Counter_2ece8618_b0a0_11e4_ba78_60030894943e0_createDomain {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_creation_instance<closeparen>,$(MazeCreator_WORKSPACE_NAME)_Counter)}"), "0")
@@ -1772,6 +2408,15 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_Counter  
 # -------------------------------------------------------------------------
 
 Tcl2 set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitDelim [FME_DecodeText {1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s}];      if { [regexp {^([1-9][0-9]*s)+$} [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitDelim]] }      {         set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitWidths [split [regsub -all {s$} {1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s} {}] s];         proc $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_doSplit {}         {            global $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {line}]];            set attrNum 0;            set listName [FME_DecodeText {_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string "map {}" $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;               };               incr attrPos $width;               incr attrNum;            };         };      }      else      {         proc $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_doSplit {}         {            global $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitDelim;            set delim [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_2ece8bfe_b0a0_11e4_ba78_60030894943e0_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {line}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string "map {}" $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;               };               incr attrNum;            }          }       }
+=======
+Tcl2 proc $(MazeCreator_WORKSPACE_NAME)_Counter_7974f217_f99c_418f_96a3_10558cae50af53_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {$(MazeCreator_WORKSPACE_NAME)_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_Counter    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_AttributeRenamer_OUTPUT"    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_StringSearcher_NOT_MATCHED"    OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Counter_OUTPUT"         "_y" @Count(fme_encoded,@Tcl2("$(MazeCreator_WORKSPACE_NAME)_Counter_7974f217_f99c_418f_96a3_10558cae50af53_createDomain {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_creation_instance<closeparen>,$(MazeCreator_WORKSPACE_NAME)_Counter)}"), "0")
+
+# -------------------------------------------------------------------------
+
+Tcl2 set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitDelim [FME_DecodeText {1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s}];      if { [regexp {^([1-9][0-9]*s)+$} [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitDelim]] }      {         set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitWidths [split [regsub -all {s$} {1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s1s} {}] s];         proc $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_doSplit {}         {            global $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {line}]];            set attrNum 0;            set listName [FME_DecodeText {_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string "map {}" $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;               };               incr attrPos $width;               incr attrNum;            };         };      }      else      {         proc $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_doSplit {}         {            global $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitDelim;            set delim [set $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_cdb0a4bf_f022_4ec7_b666_02ecb4ff4cbb53_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {line}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string "map {}" $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;               };               incr attrNum;            }          }       }
+>>>>>>> master
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_AttributeSplitter    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Counter_OUTPUT"    OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_OUTPUT"         @Tcl2($(MazeCreator_WORKSPACE_NAME)_AttributeSplitter_doSplit)
 
 # -------------------------------------------------------------------------
@@ -1803,7 +2448,11 @@ INCLUDE [    if { ([string equal {0} {<Unused>}]==0 && [string equal {0} {<not s
 INCLUDE [ if {{<Unused>} == {<Unused>}} {    puts {MACRO ALPHA_CLAUSE};    puts {MACRO BACKGROUND_ALPHA_CLAUSE}; } else {    puts {MACRO ALPHA_CLAUSE ALPHA "<Unused>"};    puts {MACRO BACKGROUND_ALPHA_CLAUSE BACKGROUND_ALPHA "<Unused>"}; } ]
 FACTORY_DEF * VectorToRasterFactory    FACTORY_NAME $(MazeCreator_WORKSPACE_NAME)_ImageRasterizer    INPUT  FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Offsetter_3_OFFSET"    GROUP_BY _creation_instance    WIDTH "<Unused>"    HEIGHT "<Unused>"    X_CELL_SIZE "1"    Y_CELL_SIZE "1"    INTERPRETATION_TYPE RGB24    $(ALPHA_CLAUSE)    BACKGROUND_COLOR "1,1,1"    $(BACKGROUND_ALPHA_CLAUSE)    FILL_WITH_NODATA Yes    ANTI_ALIASING No    TOLERANCE 0.5    POINTCLOUD_INTERPRETATION COLOR    $(GROUND_EXTENTS_CLAUSE)    OUTPUT RASTER FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_ImageRasterizer_RASTER"       @SupplyAttributes(fme_basename,$(MazeCreator_WORKSPACE_NAME)_ImageRasterizer)
 
+<<<<<<< HEAD
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(MazeCreator_WORKSPACE_NAME)_Maze1423516275 Output Collector"   INPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_ImageRasterizer_RASTER"   OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Maze"
+=======
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(MazeCreator_WORKSPACE_NAME)_Maze1423255257 Output Collector"   INPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_ImageRasterizer_RASTER"   OUTPUT FEATURE_TYPE "$(MazeCreator_WORKSPACE_NAME)_Maze"
+>>>>>>> master
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(MazeCreator_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "MazeCreator Maze Output Renamer/Nuker"   INPUT FEATURE_TYPE MazeCreator_Maze   OUTPUT FEATURE_TYPE MazeCreator_Maze
 # -------------------------------------------------------------------------
@@ -1853,7 +2502,11 @@ FACTORY_DEF * PointCloudCombinerFactory    FACTORY_NAME PointCloudCombiner_2___C
 FACTORY_DEF * TeeFactory    FACTORY_NAME PointCloudComponentAdder_2    INPUT  FEATURE_TYPE PointCloudCombiner_2_OUTPUT    OUTPUT FEATURE_TYPE PointCloudComponentAdder_2_OUTPUT       @AddPointCloudComponents(blockID,UInt16,2,z,UInt8,0)
 
 # -------------------------------------------------------------------------
+<<<<<<< HEAD
 FACTORY_DEF * VectorToPointCloudFactory    FACTORY_NAME PointCloudCombiner_4___VectorMerger    INPUT  FEATURE_TYPE PointCloudComponentAdder_2_OUTPUT    INPUT  FEATURE_TYPE Offsetter_2_OFFSET    INPUT  FEATURE_TYPE Offsetter_OFFSET    ACCUMULATE_ATTRIBUTES yes    EXTRACT_RASTER_NODATA no    SPACING "1.0"    MEASURES_TO_PRESERVE    ATTRIBUTES_TO_PRESERVE    OUTPUT COERCED FEATURE_TYPE PointCloudCombiner_4___MergedVectorFeatures__       @SupplyAttributes(?,fme_basename,PointCloudCombiner_4)
+=======
+FACTORY_DEF * VectorToPointCloudFactory    FACTORY_NAME PointCloudCombiner_4___VectorMerger    INPUT  FEATURE_TYPE PointCloudComponentAdder_2_OUTPUT    INPUT  FEATURE_TYPE Offsetter_OFFSET    INPUT  FEATURE_TYPE Offsetter_2_OFFSET    ACCUMULATE_ATTRIBUTES yes    EXTRACT_RASTER_NODATA no    SPACING "1.0"    MEASURES_TO_PRESERVE    ATTRIBUTES_TO_PRESERVE    OUTPUT COERCED FEATURE_TYPE PointCloudCombiner_4___MergedVectorFeatures__       @SupplyAttributes(?,fme_basename,PointCloudCombiner_4)
+>>>>>>> master
 FACTORY_DEF * PointCloudCombinerFactory    FACTORY_NAME PointCloudCombiner_4___Combiner    INPUT FEATURE_TYPE PointCloudCombiner_4___MergedVectorFeatures__    ACCUMULATE_ATTRIBUTES yes    OUTPUT MERGED FEATURE_TYPE PointCloudCombiner_4_OUTPUT
 
 # -------------------------------------------------------------------------
